@@ -58,6 +58,16 @@ FROM dbo.superstore
 GROUP BY Region
 ORDER BY TotalProfit DESC;
 
+-- profitability by category
+SELECT
+    Category,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit,
+    ROUND(SUM(Profit) / NULLIF(SUM(Sales), 0) * 100, 2) AS ProfitMargin
+FROM dbo.superstore
+GROUP BY Category
+ORDER BY ProfitMargin DESC;
+
 
 -- notes:
 -- west and east are strongest regions
