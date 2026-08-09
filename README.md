@@ -1,86 +1,69 @@
-# Superstore Sales Analysis
+# SQL Analysis
 
-## 📊 Project Overview
+## Overview
 
-This project analyzes retail sales data to identify trends in **sales, profit, discounts, product performance, and regional performance**.
+This folder contains the SQL analysis used to evaluate the Superstore retail dataset.
 
-The goal is to use SQL to answer real business questions and turn raw sales data into actionable insights.
+The analysis focuses on **sales, profitability, discounts, product performance, and regional trends**.
 
-## 🛠️ Tools & Technologies
+## Business Questions
 
-* **SQL Server**
-* **SQL**
-* **Power BI**
-* **GitHub**
-
-## 🔍 Business Questions
-
-This analysis focuses on questions such as:
+The analysis answers questions such as:
 
 * What are the overall sales and profit?
-* Which product categories generate the most profit?
-* Which products have high sales but lower profitability?
-* How do discounts affect profit?
-* Which regions perform best?
-* Which areas may require improvement?
+* Which categories and sub-categories are most profitable?
+* Which products generate the most profit?
+* How are discount levels associated with profitability?
+* Which regions generate the strongest profit?
+* Which sub-categories rank highest by profit?
 
-## 📈 Analysis Performed
+## SQL Techniques Used
 
-Using SQL, I analyzed:
+* `SELECT`
+* `TOP`
+* `COUNT()`
+* `SUM()`
+* `GROUP BY`
+* `ORDER BY`
+* `ROUND()`
+* `NULLIF()`
+* `RANK()`
+* Window functions
+* Aggregate functions
 
-* Overall sales and profit
-* Sales and profit by category and sub-category
-* Regional performance
-* Product performance
-* Discount and profitability relationships
-* High-performing and low-performing products
+## Analysis Areas
 
-## 💡 Key Insights
+### Category & Sub-Category Performance
 
-* Some products generate strong sales but comparatively lower profit.
+Analyzed sales and profit across categories and sub-categories to identify strong and weak performers.
+
+### Discount Analysis
+
+Examined sales and profitability across different discount levels.
+
+### Regional Performance
+
+Compared sales and profit across regions to identify differences in business performance.
+
+### Profitability Analysis
+
+Calculated profit margins by category to evaluate profitability beyond total sales.
+
+### Product Analysis
+
+Identified the top 10 products based on total profit.
+
+### Profit Ranking
+
+Ranked sub-categories based on total profit using the `RANK()` window function.
+
+## Key Business Findings
+
+* Strong sales do not always translate into strong profitability.
 * Higher discount levels are associated with lower profitability.
-* Product and regional performance varies significantly across the business.
-* Revenue alone does not always indicate strong business performance.
+* Regional performance varies across the business.
+* Product and sub-category performance varies significantly.
 
-## 📊 Power BI Dashboard
+## File
 
-The analysis was also visualized in Power BI to make the results easier to explore and understand.
-
-The dashboard includes visualizations for:
-
-* Sales performance
-* Profit performance
-* Regional trends
-* Monthly sales
-* Product and category performance
-
-## 📁 Project Structure
-
-```text
-retail-sales-dashboard/
-│
-├── powerbi/
-│   ├── Sales_Performance_Dashboard.pbix
-│   ├── README.md
-│   └── screenshots/
-│
-├── sql/
-│   ├── superstore_analysis.sql
-│   └── README.md
-│
-└── README.md
-```
-
-## 🎯 Business Value
-
-This project demonstrates my ability to:
-
-* Analyze business data using SQL
-* Identify trends and performance issues
-* Translate data into business insights
-* Create data visualizations in Power BI
-* Communicate analytical findings clearly
-
-## 👩‍💻 About the Project
-
-This project was created as part of my Data Analytics portfolio to demonstrate an end-to-end approach to analyzing business data using **SQL and Power BI**.
+* `superstore_analysis.sql` — SQL queries used for the analysis.
