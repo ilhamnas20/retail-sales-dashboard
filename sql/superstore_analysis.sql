@@ -93,3 +93,13 @@ ORDER BY TotalProfit DESC;
 -- Revenue performance does not always translate into higher profitability.
 -- Discounting can have a significant impact on profit.
 -- Regional and product-level performance varies across the business.
+
+-- rank sub-categories by profit
+SELECT
+    Sub_Category,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit,
+    RANK() OVER (ORDER BY SUM(Profit) DESC) AS ProfitRank
+FROM dbo.superstore
+GROUP BY Sub_Category
+ORDER BY ProfitRank;
