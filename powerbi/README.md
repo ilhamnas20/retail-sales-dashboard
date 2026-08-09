@@ -10,46 +10,45 @@ The dashboard transforms raw sales data into business-focused visualizations tha
 
 The dashboard helps answer:
 
-* What are the overall sales and profit?
-* How is sales performance changing over time?
-* Which categories and sub-categories perform best?
-* Which regions generate the most sales and profit?
-* Which products contribute the most to profitability?
-* How does profitability vary across the business?
+- What are the overall sales and profit?
+- How is sales performance changing over time?
+- Which categories and sub-categories perform best?
+- Which regions generate the most sales and profit?
+- Which products contribute the most to profitability?
+- How does profitability vary across the business?
 
 ## Tools Used
 
-* Power BI
-* DAX
-* SQL Server
-* GitHub
+- Power BI
+- DAX
+- SQL Server
+- GitHub
 
 ## Dashboard Features
 
-* Sales and profit KPIs
-* Sales trends over time
-* Category and sub-category performance
-* Regional performance analysis
-* Product performance
-* Interactive filters and slicers
-* Business-focused data visualizations
+- Sales and profit KPIs
+- Sales trends over time
+- Category and sub-category performance
+- Regional performance analysis
+- Product performance
+- Interactive filters and slicers
+- Business-focused data visualizations
 
 ## Key Skills Demonstrated
 
-* Data analysis
-* Data visualization
-* Power BI dashboard development
-* DAX calculations
-* SQL analysis
-* Business intelligence
-* KPI development
-* Interactive reporting
+- Data analysis
+- Data visualization
+- Power BI dashboard development
+- DAX calculations
+- SQL analysis
+- Business intelligence
+- KPI development
+- Interactive reporting
 
 ## Project Files
 
 - `Sales_Performance_Dashboard.pbix` — Power BI dashboard
 - `screenshots/dashboard.png` — dashboard preview
-
 
 ## Project Goal
 
