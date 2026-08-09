@@ -2,20 +2,18 @@
 
 ## Overview
 
-This Power BI dashboard analyzes the Superstore dataset to provide insights into sales performance, profitability, and regional trends.
+This screenshot provides a preview of the Power BI dashboard created using the Superstore retail dataset.
 
-## Tools Used
-
-- Power BI
-- Superstore Dataset
+The dashboard focuses on sales performance, profitability, and regional trends.
 
 ## Dashboard Features
 
-- Total Sales
-- Total Profit
-- Sales by Region
-- Monthly Sales Trend
+* Total Sales KPI
+* Total Profit KPI
+* Sales by Region
+* Monthly Sales Trend
+* Interactive Power BI visualizations
 
 ## Dashboard Preview
 
-![Sales Performance Dashboard](screenshots/dashboard.png)
+![Sales Performance Dashboard](dashboard.png)
