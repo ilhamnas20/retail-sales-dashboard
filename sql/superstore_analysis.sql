@@ -1,6 +1,6 @@
 -- =========================================
 -- Superstore SQL Analysis Project
--- Goal: understand sales, profit, discounts, and regional performance
+-- Goal: analyze sales, profitability, discounts, product performance, and regional trends
 -- Tool: SQL Server
 -- =========================================
 
