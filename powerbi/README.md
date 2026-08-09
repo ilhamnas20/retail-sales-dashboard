@@ -47,8 +47,9 @@ The dashboard helps answer:
 
 ## Project Files
 
-* `Sales_Performance_Dashboard.pbix` — Power BI dashboard
-* `dashboard.png` — dashboard preview
+- `Sales_Performance_Dashboard.pbix` — Power BI dashboard
+- `screenshots/dashboard.png` — dashboard preview
+
 
 ## Project Goal
 
