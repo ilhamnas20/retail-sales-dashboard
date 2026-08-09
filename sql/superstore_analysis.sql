@@ -68,14 +68,23 @@ FROM dbo.superstore
 GROUP BY Category
 ORDER BY ProfitMargin DESC;
 
+-- top 10 products by profit
+SELECT TOP 10
+    Product_Name,
+    SUM(Sales) AS TotalSales,
+    SUM(Profit) AS TotalProfit
+FROM dbo.superstore
+GROUP BY Product_Name
+ORDER BY TotalProfit DESC;
+
 
 -- notes:
--- west and east are strongest regions
--- central is the weakest in terms of profit
+-- Key regional findings:
+-- West and East are among the strongest regions by profit.
+-- Central has the lowest overall profit among the regions analyzed.
 
-
--- quick summary of what I noticed:
--- phones = strong sales but not top profit
--- copiers = best profit category
--- heavy discounts reduce profit
--- central region is underperforming
+-- Key business findings:
+-- Phones generate strong sales but are not among the highest-profit sub-categories.
+-- Copiers generate strong profitability.
+-- Higher discount levels are associated with lower profitability.
+-- Regional performance varies, with the Central region showing an opportunity for improvement.
