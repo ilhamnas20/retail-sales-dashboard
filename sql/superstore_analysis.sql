@@ -78,20 +78,16 @@ GROUP BY Product_Name
 ORDER BY TotalProfit DESC;
 
 
--- notes:
 -- Key category and sub-category findings:
 -- Phones generate strong sales but are not among the highest-profit sub-categories.
 -- Copiers generate strong profitability.
 
-
 -- Key discount finding:
 -- Higher discount levels are associated with lower profitability.
-
 
 -- Key regional findings:
 -- West and East are among the strongest regions by profit.
 -- Central has the lowest overall profit among the regions analyzed.
-
 
 -- Key business findings:
 -- Revenue performance does not always translate into higher profitability.
